@@ -1,0 +1,29 @@
+<Packages>
+    <ApplicationName>OpenMV IDE</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>io.openmv.openmvide</Name>
+        <Title>OpenMV IDE</Title>
+        <Description>Installs OpenMV IDE.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>4.2.5</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-10-18</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>io.openmv.openmvide.application</Name>
+        <Title>OpenMV IDE Application</Title>
+        <Description>The IDE of choice for OpenMV Cam Development.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>4.2.5</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-10-18</InstallDate>
+        <Size>667271570</Size>
+        <AutoDependOn>io.openmv.openmvide</AutoDependOn>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+</Packages>

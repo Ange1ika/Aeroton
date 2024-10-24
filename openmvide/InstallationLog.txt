@@ -1,0 +1,246 @@
+************************************* Invoked: Fri Oct 18 22:16:28 2024
+[0] Arguments: ./openmv-ide-linux-x86_64-4.2.5.run
+[1] Operations sanity check succeeded.
+[2] Using metadata cache from "/home/angelika/.cache/qt-installer-framework/79fc8fd7-13af-376d-b150-ad5d714fd38d"
+[2] Found 0 cached items.
+[2] Language: en-US
+[80] Loaded control script ":/metadata/installer-config/controlscript_qs.qs"
+[80] Using control script: ":/metadata/installer-config/controlscript_qs.qs"
+[2810] Fetching latest update information...
+[2820] Loading component scripts...
+[5427] Critical: TypeError: Value is undefined and could not be converted to an object 
+This may be solved by restarting the application after clearing the cache from: "/home/angelika/.cache/qt-installer-framework/79fc8fd7-13af-376d-b150-ad5d714fd38d"
+[12310] Selected components without dependencies:
+io.openmv.openmvide 
+io.openmv.openmvide.application
+[12311] Installation space required: "892.36 MB" Temporary space required: "256.00 MB" Local repository size: "0.00 bytes"
+[12312] Cache and install directories are on the same volume. Volume mount point: "/" Free space available: "67.37 GB"
+[13926] backup  operation: Mkdir
+[13926] 	- arguments: /home/angelika/openmvide
+[13926] Done
+[13926] perform  operation: Mkdir
+[13926] 	- arguments: /home/angelika/openmvide
+[13927] Done
+[13927] Preparing the installation...
+[13927] Install size: 2 components
+[13928] Preparing to unpack components...
+[13928] backup io.openmv.openmvide.application concurrent operation: Extract
+[13928] 	- arguments: installer://io.openmv.openmvide.application/4.2.5openmv-ide-linux-x86_64-4.2.5-installer-archive.7z, /home/angelika/openmvide
+[13928] Started
+[22290] Unpacking components...
+[22292] perform io.openmv.openmvide.application concurrent operation: Extract
+[22292] 	- arguments: installer://io.openmv.openmvide.application/4.2.5openmv-ide-linux-x86_64-4.2.5-installer-archive.7z, /home/angelika/openmvide
+[22292] Started
+[31200] Installing component OpenMV IDE Application
+[31201] backup io.openmv.openmvide.application operation: InstallIcons
+[31201] 	- arguments: /home/angelika/openmvide/share/icons
+[31201] Done
+[31201] perform io.openmv.openmvide.application operation: InstallIcons
+[31201] 	- arguments: /home/angelika/openmvide/share/icons
+[31213] Done
+[31213] backup io.openmv.openmvide.application operation: CreateDesktopEntry
+[31213] 	- arguments: OpenMV-openmvide.desktop, Type=Application
+Name=OpenMV IDE
+GenericName=OpenMV IDE
+Comment=The IDE of choice for OpenMV Cam Development.
+Exec=/home/angelika/openmvide/bin/openmvide %F
+Icon=OpenMV-openmvide
+Terminal=false
+Categories=Development;IDE;Electronics;OpenMV;
+MimeType=text/x-python;
+Keywords=embedded electronics;electronics;microcontroller;micropython;computer vision;machine vision;
+StartupWMClass=openmvide
+
+[31213] Done
+[31214] perform io.openmv.openmvide.application operation: CreateDesktopEntry
+[31214] 	- arguments: OpenMV-openmvide.desktop, Type=Application
+Name=OpenMV IDE
+GenericName=OpenMV IDE
+Comment=The IDE of choice for OpenMV Cam Development.
+Exec=/home/angelika/openmvide/bin/openmvide %F
+Icon=OpenMV-openmvide
+Terminal=false
+Categories=Development;IDE;Electronics;OpenMV;
+MimeType=text/x-python;
+Keywords=embedded electronics;electronics;microcontroller;micropython;computer vision;machine vision;
+StartupWMClass=openmvide
+
+[31214] Done
+[31214] Fallback: "/home/angelika/Downloads/openmv-ide-linux-x86_64-4.2.5.run --start-server PRODUCTION,/tmp/{dfdf1ebd-6965-4ec7-a289-f0deebe752f7},{19055b11-4602-4448-81c3-d7f4b470f6b9}"
+[43134] "Execute" as admin: true
+[43134] backup io.openmv.openmvide.application operation: Execute
+[43134] 	- arguments: {0}, apt-get, install, -y, libpng16-16, libusb-1.0, python3, python3-pip, libfontconfig1, libfreetype6, libxcb1, libxcb-glx0, libxcb-keysyms1, libxcb-image0, libxcb-shm0, libxcb-icccm4, libxcb-xfixes0, libxcb-shape0, libxcb-randr0, libxcb-render-util0, libxcb-xinerama0
+[43134] Done
+[43134] perform io.openmv.openmvide.application operation: Execute
+[43134] 	- arguments: {0}, apt-get, install, -y, libpng16-16, libusb-1.0, python3, python3-pip, libfontconfig1, libfreetype6, libxcb1, libxcb-glx0, libxcb-keysyms1, libxcb-image0, libxcb-shm0, libxcb-icccm4, libxcb-xfixes0, libxcb-shape0, libxcb-randr0, libxcb-render-util0, libxcb-xinerama0
+[43137] apt-get" started, arguments: "install -y libpng16-16 libusb-1.0 python3 python3-pip libfontconfig1 libfreetype6 libxcb1 libxcb-glx0 libxcb-keysyms1 libxcb-image0 libxcb-shm0 libxcb-icccm4 libxcb-xfixes0 libxcb-shape0 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0
+[43630] Done
+[43630] "Execute" as admin: true
+[43630] backup io.openmv.openmvide.application operation: Execute
+[43630] 	- arguments: {0}, pip3, install, pyusb
+[43630] Done
+[43630] perform io.openmv.openmvide.application operation: Execute
+[43630] 	- arguments: {0}, pip3, install, pyusb
+[43633] pip3" started, arguments: "install pyusb
+[43927] Warning: WARNING: The directory '/home/angelika/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+[43927] Done
+[43927] Operation \"Execute\" with arguments \"{0}; pip3; install; pyusb\" failed: Execution failed (Unexpected exit code: 1): \"pip3 install pyusb\"
+[43927] installationErrorWithCancel : Installer Error : Error during installation process (io.openmv.openmvide.application):
+Execution failed (Unexpected exit code: 1): "pip3 install pyusb" Retry|Ignore|Cancel
+[113670] perform io.openmv.openmvide.application operation: Execute
+[113670] 	- arguments: {0}, pip3, install, pyusb
+[113671] pip3" started, arguments: "install pyusb
+[113878] Warning: WARNING: The directory '/home/angelika/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+[113879] Done
+[113879] Operation \"Execute\" with arguments \"{0}; pip3; install; pyusb\" failed: Execution failed (Unexpected exit code: 1): \"pip3 install pyusb\"
+[113879] installationErrorWithCancel : Installer Error : Error during installation process (io.openmv.openmvide.application):
+Execution failed (Unexpected exit code: 1): "pip3 install pyusb" Retry|Ignore|Cancel
+[114729] perform io.openmv.openmvide.application operation: Execute
+[114729] 	- arguments: {0}, pip3, install, pyusb
+[114730] pip3" started, arguments: "install pyusb
+[114957] Warning: WARNING: The directory '/home/angelika/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+[114958] Done
+[114958] Operation \"Execute\" with arguments \"{0}; pip3; install; pyusb\" failed: Execution failed (Unexpected exit code: 1): \"pip3 install pyusb\"
+[114958] installationErrorWithCancel : Installer Error : Error during installation process (io.openmv.openmvide.application):
+Execution failed (Unexpected exit code: 1): "pip3 install pyusb" Retry|Ignore|Cancel
+[122771] perform io.openmv.openmvide.application operation: Execute
+[122771] 	- arguments: {0}, pip3, install, pyusb
+[122773] pip3" started, arguments: "install pyusb
+[122989] Warning: WARNING: The directory '/home/angelika/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+[122989] Done
+[122989] Operation \"Execute\" with arguments \"{0}; pip3; install; pyusb\" failed: Execution failed (Unexpected exit code: 1): \"pip3 install pyusb\"
+[122989] installationErrorWithCancel : Installer Error : Error during installation process (io.openmv.openmvide.application):
+Execution failed (Unexpected exit code: 1): "pip3 install pyusb" Retry|Ignore|Cancel
+[124344] "Copy" as admin: true
+[124344] backup io.openmv.openmvide.application operation: Copy
+[124344] 	- arguments: /home/angelika/openmvide/share/qtcreator/pydfu/99-openmv.rules, /etc/udev/rules.d/99-openmv.rules
+[124346] Done
+[124348] perform io.openmv.openmvide.application operation: Copy
+[124348] 	- arguments: /home/angelika/openmvide/share/qtcreator/pydfu/99-openmv.rules, /etc/udev/rules.d/99-openmv.rules
+[124354] Done
+[124354] "Copy" as admin: true
+[124354] backup io.openmv.openmvide.application operation: Copy
+[124354] 	- arguments: /home/angelika/openmvide/share/qtcreator/pydfu/99-openmv-arduino.rules, /etc/udev/rules.d/99-openmv-arduino.rules
+[124354] Done
+[124354] perform io.openmv.openmvide.application operation: Copy
+[124354] 	- arguments: /home/angelika/openmvide/share/qtcreator/pydfu/99-openmv-arduino.rules, /etc/udev/rules.d/99-openmv-arduino.rules
+[124357] Done
+[124357] "Copy" as admin: true
+[124358] backup io.openmv.openmvide.application operation: Copy
+[124358] 	- arguments: /home/angelika/openmvide/share/qtcreator/pydfu/99-openmv-nxp.rules, /etc/udev/rules.d/99-openmv-nxp.rules
+[124358] Done
+[124358] perform io.openmv.openmvide.application operation: Copy
+[124358] 	- arguments: /home/angelika/openmvide/share/qtcreator/pydfu/99-openmv-nxp.rules, /etc/udev/rules.d/99-openmv-nxp.rules
+[124360] Done
+[124361] "Execute" as admin: true
+[124361] backup io.openmv.openmvide.application operation: Execute
+[124361] 	- arguments: {0}, udevadm, trigger
+[124361] Done
+[124361] perform io.openmv.openmvide.application operation: Execute
+[124361] 	- arguments: {0}, udevadm, trigger
+[124362] udevadm" started, arguments: "trigger
+[124504] Done
+[124504] "Execute" as admin: true
+[124504] backup io.openmv.openmvide.application operation: Execute
+[124504] 	- arguments: {0}, udevadm, control, --reload-rules
+[124504] Done
+[124504] perform io.openmv.openmvide.application operation: Execute
+[124504] 	- arguments: {0}, udevadm, control, --reload-rules
+[124506] udevadm" started, arguments: "control --reload-rules
+[124578] Done
+[124578] backup io.openmv.openmvide.application operation: License
+[124578] 	- arguments:
+[124578] Done
+[124578] perform io.openmv.openmvide.application operation: License
+[124578] 	- arguments:
+[124578] Done
+[124581] Writing maintenance tool: "/home/angelika/openmvide/OpenMVIDEUninstaller.new"
+[124581] Writing maintenance tool.
+[124656] Wrote permissions for maintenance tool.
+[124667] Maintenance tool hard restart: false.
+[124667] Installation finished!
+[126763] run application as detached process: "/home/angelika/openmvide/bin/openmvide" QList() "/home/angelika"
